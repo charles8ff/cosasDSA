@@ -9,8 +9,8 @@
 class stringList : public iList
 {
 public:
-    stringList( void ) { 
-        first = last = nullptr;  
+    stringList( void ) {
+        first = last = nullptr;
         size = 0;
     }
     stringList( const string s ) {
@@ -67,7 +67,7 @@ public:
         }
 	}
     virtual void removeLast( void ){
-        if( !isEmpty() ){     
+        if( !isEmpty() ){
             if(  size == 1 ){
                 delete first;
                 first = last = nullptr;
@@ -87,7 +87,7 @@ public:
         for( SNode* p = first; p != nullptr; p = p->getNext() )
             os << p->getString() << " ";
     }
-    
+
 protected:
     SNode *first;
     SNode *last;
@@ -98,5 +98,5 @@ ostream& operator<<( ostream& os, const stringList& l ){
     l.print( os );
     return os;
 }
-    
+
 #endif

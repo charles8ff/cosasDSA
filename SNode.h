@@ -21,18 +21,18 @@ public:
     }
     virtual ~SNode() {}
 
-    string getString( void ) const {   
-        return element;  
+    string getString( void ) const {
+        return element;
      }
-    void setString( string s ) {   
-        element = s;    
+    void setString( string s ) {
+        element = s;
     }
 
-    SNode* getNext() const {   
-        return next;     
+    SNode* getNext() const {
+        return next;
     }
-    void putNext( SNode* p) {    
-        next = p;     
+    void putNext( SNode* p) {
+        next = p;
     }
 protected:
     string element;

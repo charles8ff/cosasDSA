@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
     stringList l;
- 
+
     l.addFirst( "Hello" );
     l.addLast( "World" );
     l.addLast( "!!" );
