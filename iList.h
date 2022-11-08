@@ -6,7 +6,6 @@ using namespace std;
 
 /**
  * Single linked list ADT
- *
  */
 class iList {
     virtual bool isEmpty( void ) const = 0;
@@ -47,9 +46,9 @@ class iList {
     //  * DESCRIPTION: returns the number of nodes in the linked list
     //  * INPUT: void
     //  * OUTPUT: unsigned int
-    //  * PRE-CONDITION: 
+    //  * PRE-CONDITION:
     //  * POST-CONDITION:
-    //  * INVARIANT: 
+    //  * INVARIANT:
     //
     virtual unsigned int getSize( void ) const = 0;
 #endif
