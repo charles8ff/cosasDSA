@@ -1,4 +1,4 @@
-// Interface for a sample of real numbers 
+// Interface for a sample of real numbers
 class iSample
 {
 private:
