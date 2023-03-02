@@ -13,4 +13,6 @@ int main() {
         cout << p->getString() << " ";
     cout << endl;
 
+    return 0;
+
 }
